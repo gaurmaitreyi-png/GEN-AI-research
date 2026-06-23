@@ -1,8 +1,16 @@
-# Attention Is All You Need — a breakdown
+# GEN-AI Research
 
-My notes on the paper that quietly started everything we now call Gen-AI.
+My deep-dives into the research papers behind modern Generative AI — read end to end, then broken down into plain-English notes with diagrams.
 
-> **Vaswani et al., 2017** — *Attention Is All You Need* — [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
+### 📄 Paper covered in this repo
+
+> **Attention Is All You Need** — Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser & Polosukhin · *NeurIPS 2017* · [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
+
+This is *the* paper that introduced the **Transformer** — the architecture every modern large language model (GPT, Gemini, Claude, BERT) is built on. Everything below is my breakdown of it. The hands-on worked example lives in [`NOTES.md`](NOTES.md).
+
+---
+
+## Attention Is All You Need — a breakdown
 
 I kept seeing "Transformer" everywhere — GPT, Gemini, Claude, BERT, Stable Diffusion's text encoder — and every trail led back to this one 2017 paper from Google. So I sat down and actually read it instead of nodding along. These are the notes I wish I'd had on day one: the intuition first, the math second, and diagrams wherever a picture said it better than a paragraph.
 
